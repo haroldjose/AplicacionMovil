@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/header">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnejercicio"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:text="@string/ejercicio"
+            android:textColor="@color/colorIcons"
+            android:drawableLeft="@drawable/boton1"
+            android:textSize="16sp"
+            android:background="@drawable/btnovalado"
+            android:fontFamily="Bodoni MT"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnpractica"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:text="@string/practica"
+            android:textColor="@color/colorIcons"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/boton2"
+            android:background="@drawable/btnovalado"
+            android:fontFamily="Bodoni MT"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnanotacion"
+            android:layout_width="220dp"
+            android:layout_height="60dp"
+            android:background="@drawable/btnovalado"
+            android:drawableLeft="@drawable/boton3"
+            android:fontFamily="Bodoni MT"
+            android:text="@string/anotacion"
+            android:textColor="@color/colorIcons"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

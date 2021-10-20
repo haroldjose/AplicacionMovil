@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#448AFF</color>
+    <color name="colorPrimaryDark">#0288d1</color>
+    <color name="colorPrimaryLight">#FFCCBC</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorDivider">#BDBDBD</color>
+
+    <!--colores para el pastel-->
+    <color name="amarrilloX">#FFFF00</color>
+    <color name="amarrillo10">#F7FE2E</color>
+    <color name="amarrillo9">#F4FA58</color>
+    <color name="rojo8">#FF0000</color>
+    <color name="rojo7">#FE2E2E</color>
+    <color name="celeste6">#0080FF</color>
+    <color name="celeste5">#2E9AFE</color>
+    <color name="negro4">#000000</color>
+    <color name="negro3">#020202</color>
+    <color name="blanco2">#FFFFFF</color>
+    <color name="blanco1">#FAFAFA</color>
+    <color name="blancoM">#01DF01</color>
+    <color name="magenta">#9400D3</color>
+
+</resources>

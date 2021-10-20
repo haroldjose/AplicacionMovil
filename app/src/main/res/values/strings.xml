@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">TesisProyecto</string>
+
+    // botones principal
+    <string name="ejercicio">EJERCICIO</string>
+    <string name="practica">PRACTICA</string>
+    <string name="anotacion">ANOTACION</string>
+
+    // boton de mostrar siguiente y terminar ejercicio y practica
+    <string name="btn_comenzar">Comenzar</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="btn_terminar">Terminar</string>
+
+    // menu de puntos
+    <string name="estadistica">Estadistica</string>
+    <string name="descarga">Reporte entrenamiento</string>
+
+    // boton para editar
+    <string name="btn_editar">Confirmar</string>
+    // boton para informacion lista vacia
+    <string name="lista_vacia">No se encuentra ningun dato creado por el momento,presiona + para crear la ronda</string>
+
+
+    //mostrar nombre ejercicio
+    <string name="flexion">FLEXIONES</string>
+    <string name="tricep">TRICEPS</string>
+    <string name="abdominal">ABDOMINALES</string>
+    <string name="plancha">PLANCHAS</string>
+    <string name="sentadilla">SENTADILLAS</string>
+    <string name="disco">DISCO EN MANO</string>
+
+    // letra para flexion
+    <string name="letra_flexion1">Realizar 3 series de 12 repeticiones.</string>
+    <string name="letra_flexion2">Sube y baja el cuerpo con los brazos.</string>
+    <string name="letra_flexion3">Mantener el torso en linea recta.</string>
+    <string name="letra_flexion4">Procure que los codos formen 45 grados con el tronco.</string>
+    <string name="letra_flexion5">Este ejercicio trabaja musculos del pecho, hombros, triceps y espalda.</string>
+    // letra para triceps
+    <string name="letra_triceps1">Realizar 3 series de 15 repeticiones.</string>
+    <string name="letra_triceps2">Apoyar los brazos en la parte delantera de la silla,con los pies hacia adelante.</string>
+    <string name="letra_triceps3">Mantener la espalda cerca de la silla.</string>
+    <string name="letra_triceps4">Doble los codos y trate de bajar a 90 grados.</string>
+    <string name="letra_triceps5">Este ejercicio trabaja especificamente los biceps.</string>
+    // letra para abdominales
+    <string name="letra_abdominal1">Realizar 3 series de 30 repeticiones.</string>
+    <string name="letra_abdominal2">Túmbate boca arriba con rodillas flexionadas.</string>
+    <string name="letra_abdominal3">Levanta el tren superior del suelo, aguanta unos segundos.</string>
+    <string name="letra_abdominal4">Vuelve a la posicion original lentamente.</string>
+    <string name="letra_abdominal5">Este ejercicio trabaja los oblicuos del abdomen.</string>
+    // letra para sentadillas
+    <string name="letra_sentadilla1">Realizar 3 series de 12 repeticiones.</string>
+    <string name="letra_sentadilla2">Los pies alineados con los hombros.</string>
+    <string name="letra_sentadilla3">Los brazos estirados hacia el frente.</string>
+    <string name="letra_sentadilla4">Baja el cuerpo hasta que los musculos se encuentren paralelos al suelo.</string>
+    <string name="letra_sentadilla5">Este ejercicio trabaja los isquiotibiales, el cuádriceps y parte inferior cuerpo.</string>
+    // letra para plancha
+    <string name="letra_plancha1">Realizar 3 series de 20 segundos.</string>
+    <string name="letra_plancha2">Túmbate apoyando los dedos de los pies y los antebrazos en el suelo.</string>
+    <string name="letra_plancha3">Mantén el cuerpo recto.</string>
+    <string name="letra_plancha4">Quedate en esa posicion el tiempo establecido.</string>
+    <string name="letra_plancha5">Este ejercicio trabaja los abdominales,la espalda y los hombros.</string>
+    // letra para disco en la mano
+    <string name="letra_disco1">Realizar 3 series de 30 segundos con una pesa no mayor a 1.25 kg.</string>
+    <string name="letra_disco2">Los pies alineados con el hombro.</string>
+    <string name="letra_disco3">La mano extendida con el peso.</string>
+    <string name="letra_disco4">.</string>
+    <string name="letra_disco5">.</string>
+
+    //calentamiento
+    <string name="calentamiento2">El calentamiento debe ser realizado antes de una practica de tiro</string>
+    <string name="calentamiento4">Podra encontrar el calentamiento sugerido en informacion(¡)</string>
+    <string name="calentamiento3">No es necesario que siga el calentamiento sugerido</string>
+    <string name="calentamiento1">El calentamiento dura 15 minutos</string>
+
+    // entrenamiento
+    <string name="estirar_liga">Estirar liga</string>
+    <string name="estirar_arco">Estirar arco</string>
+    <string name="descanso">Descanso</string>
+    <string name="tirar">Tirar a distacia</string>
+    <string name="calentamiento">Calentamiento</string>
+
+
+    //estirar liga
+    <string name="descripcion_liga2">El objetivo de este ejercicio es la repeticion</string>
+    <string name="descripcion_liga3">Colocarse en posicion de tiro</string>
+    <string name="descripcion_liga4">Realizar la mimica de tiro</string>
+    <string name="descripcion_liga5">Siempre controlando la posicion de las manos</string>
+    <string name="descripcion_liga1">El estirar la liga tiene una duracion de 1 hora</string>
+    //estirar arco
+    <string name="descripcion_arco2">El objetivo de este ejercicio es tener presicion con el arco</string>
+    <string name="descripcion_arco3">Colocarse en posicion de tiro y realizar la mimica de tiro</string>
+    <string name="descripcion_arco4">Siempre controlando la posicion de las manos</string>
+    <string name="descripcion_arco5">No soltar la cuerda, volver a la posicion inicial lentamente</string>
+    <string name="descripcion_arco1">El estirar el arco tiene una duracion de 1 hora</string>
+    //tirar
+    <string name="descripcion_tirar2">El objetivo de este ejercicio es la agrupacion</string>
+    <string name="descripcion_tirar3">La distancia es a 6 metros y la practica debe realizarce sin diana</string>
+    <string name="descripcion_tirar4">La cantidad de flechas depende del arquero como minimo 6 flechas</string>
+    <string name="descripcion_tirar1">El tirar hacia el parapeto tiene una duracion de 1 hora 20 minutos</string>
+
+    <string name="descripcion_tirar5">La distancia es a 10 metros y la practica de realizarce sin diana</string>
+    <string name="descripcion_tirar6">La distancia es a 14 metros y la practica de realizarce sin diana</string>
+    <string name="descripcion_tirar7">La distancia es a 18 metros y la practica de realizarce sin diana</string>
+    //descanso
+    <string name="descripcion_descanso1">El descanso tiene una duracion de 20 minutos</string>
+    <string name="descripcion_descanso2">Tomar bastante agua y comer una merienda para reponer fuerzas </string>
+    <string name="descripcion_descanso3"></string>
+
+    //action bar
+    <string name="nuevo_datos">nuevo</string>
+    //datos
+    <string name="dato_arquero">Nombre de Arquero</string>
+    <string name="dato_club">Nombre Club</string>
+    <string name="dato_ronda">Nombre de las Rondas</string>
+    <string name="dato_fecha">Fecha:</string>
+    <string name="dato_crear">Crear</string>
+    <string name="spinner1">Tipo ronda</string>
+    <string name="spinner2">Tipo arco</string>
+    <string name="spinner3">Tipo evento</string>
+
+    // spinner tipo de ronda
+    <string-array name="Ronda1">
+        <item>1440 70 metros</item>
+        <item>720 70 metros</item>
+        <item>600 18 metros</item>
+        <item>720 50 metros</item>
+    </string-array>
+
+    // spinner tipo de arco
+    <string-array name="Arco">
+        <item>Recurvo</item>
+        <item>Compuesto</item>
+    </string-array>
+
+    // estadistica
+    <string name="estadistica1">Total flechas disparadas:</string>
+    <string name="estadistica2">Puntaje total:</string>
+    <string name="estadistica3">Porcentaje de aciertos:</string>
+    <string name="estadistica4">Puntuacion media:</string>
+
+
+</resources>

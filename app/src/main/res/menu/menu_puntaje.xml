@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/estadistica"
+        android:title="@string/estadistica"
+        android:icon="@drawable/ic_estadistica"/>
+    <item
+        android:id="@+id/generarPdf"
+        android:title="@string/descarga"
+        android:icon="@drawable/ic_pdf"/>
+
+</menu>

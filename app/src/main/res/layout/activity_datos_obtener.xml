@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/header"
+    tools:context=".DatosObtener"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.45"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputArquero"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="18dp"
+            android:inputType="textPersonName"
+            android:fontFamily="Bodoni MT"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_marginLeft="10dp"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/Error"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textArquero"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/dato_arquero"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputClub"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="18dp"
+            android:inputType="textPersonName"
+            android:fontFamily="Bodoni MT"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_marginLeft="10dp"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/Error"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textClub"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/dato_club"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputRonda"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="18dp"
+            android:inputType="textPersonName"
+            android:fontFamily="Bodoni MT"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_marginLeft="10dp"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/Error"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textRonda"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/dato_ronda"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_weight="0.05"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textFecha"
+            android:layout_width="130dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="Bodoni MT"
+            android:text="@string/dato_fecha"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="18dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textFechaVer"
+            android:layout_width="200dp"
+            android:layout_height="24dp"
+            android:fontFamily="Bodoni MT"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.30"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:text="@string/spinner2"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="18sp"/>
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:fontFamily="Bodoni MT"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:autofillHints="@string/spinner2"
+            >
+        </Spinner>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"
+            android:text="@string/spinner1"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="18sp"/>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:fontFamily="Bodoni MT"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:autofillHints="@string/spinner1"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.15"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonCrear"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:fontFamily="Bodoni MT"
+            android:background="@drawable/btnovalado"
+            android:textColor="@color/colorIcons"
+            android:textSize="16sp"
+            android:text="@string/dato_crear"
+             />
+    </LinearLayout>
+
+</LinearLayout>

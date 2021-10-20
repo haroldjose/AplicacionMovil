@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tiroconarco.harold.tesisporyecto">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ActivityInfo"></activity>
+        <activity android:name=".TableroPuntos4">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AnotacionInicio" />
+        </activity>
+        <activity android:name=".Estadistica">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AnotacionInicio" />
+        </activity>
+        <activity android:name=".ViewPDF3" />
+        <activity android:name=".TableroPuntos3">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AnotacionInicio" />
+        </activity>
+        <activity android:name=".TableroPuntos2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AnotacionInicio" />
+        </activity>
+        <activity android:name=".EditarAnotacion" />
+        <activity
+            android:name=".MyKeyboard"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".TableroPuntos">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AnotacionInicio" />
+        </activity>
+        <activity android:name=".DatosObtener">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AnotacionInicio" />
+        </activity>
+        <activity android:name=".PracticaDiario" />
+        <activity android:name=".RealizarEjercicio" />
+        <activity android:name=".MostrarejercicioRealizar" />
+        <activity android:name=".AnotacionInicio">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".PracticaInicio">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".EjercicioInicio">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".MainActivity">
+
+            <!--
+      para que no se reinicio cuando se gira el celular
+                                                      android:configChanges="orientation|screenSize"
+                                                       esto se coloca debajo de android:".MainActivity"
+                                                                                 android:configChanges="orientation|screenSize" colocar en todos los activitis
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

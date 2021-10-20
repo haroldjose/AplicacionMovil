@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/header"
+    tools:context=".EditarAnotacion"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="left"
+            android:textSize="18dp"
+            android:inputType="textPersonName"
+            android:fontFamily="Bodoni MT"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_marginLeft="10dp"
+            style="@style/Animation.Design.BottomSheetDialog"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editarNombreArquero"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:hint="@string/dato_arquero"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="left"
+            android:textSize="18dp"
+            android:inputType="textPersonName"
+            android:fontFamily="Bodoni MT"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_marginLeft="10dp"
+            style="@style/Animation.Design.BottomSheetDialog"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editarNombreClub"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:hint="@string/dato_club"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_gravity="left"
+            android:textSize="18dp"
+            android:inputType="textPersonName"
+            android:fontFamily="Bodoni MT"
+            android:textColor="@color/colorPrimaryText"
+            android:layout_marginLeft="10dp"
+            style="@style/Animation.Design.BottomSheetDialog"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editarNombreRonda"
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:hint="@string/dato_ronda"
+                android:inputType="text"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/buttonEditar"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="@string/btn_editar"
+            android:textColor="@color/colorIcons"
+            android:background="@drawable/btnovalado"
+            android:textSize="16sp"
+            android:fontFamily="Bodoni MT"/>
+
+    </LinearLayout>
+
+</LinearLayout>
